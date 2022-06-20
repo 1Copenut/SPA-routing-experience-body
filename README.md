@@ -11,6 +11,7 @@ It's important to include a skip link for keyboard navigation. It's important to
 All examples are hosted on separte GitHub repos as GitHub pages.
 
 1. [Live region with focus set on skip link](https://1copenut.github.io/SPA-routing-experience/)
+1. [Live region with focus set on body tag](https://1copenut.github.io/SPA-routing-experience-body/)
 
 ## Get started coding on your machine
 This repo requires you to type a few commands into a terminal window. Commands are shown in code blocks that begin with a dollar sign like this `$ command to type`. You can retype these commands or copy and paste them into your terminal window. Do not include the dollar sign ` $ ` when you type or copy commands into your terminal.
