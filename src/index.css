@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ==================================================
+ * Global main
+ * ================================================== */
+.continuum-global-main {
+  margin-inline: auto;
+  max-width: 70ch;
+  padding: 1rem;
+}
+
+.continuum-global-main:focus-visible {
+  outline: none;
+}
+
+/* ==================================================
+ * Tables
+ * ================================================== */
+.continuum-table {
+  border-collapse: collapse;
+}
+
+/* ==================================================
+ * Lists
+ * ================================================== */
+ .continuum-list--definition {
+  border-left: 6px solid lightskyblue;
+  margin-left: 0.5rem;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+ }
+
+.continuum-list--definition dt {
+  font-weight: bold;
+}
+
+.continuum-list--definition dd {
+  margin: 0 0 1rem 0;
+}
+
+.continuum-list--definition dd:last-of-type {
+  margin-bottom: 0;
+}
+
+.continuum-table th,
+.continuum-table td {
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* ==================================================
+ * Class-based utilities
+ * ================================================== */
+.continuum-outline--none {
+  outline: none !important;
+}
+
+.continuum-sr-only { 
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

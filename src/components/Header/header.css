@@ -1,0 +1,17 @@
+.continuum-global-header {
+  background: lightskyblue;
+  border-bottom: 1px solid #000;
+  padding: 1.5rem;
+  text-align: right;
+}
+
+.continuum-global-nav a {
+  color: #121212;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.continuum-global-nav a:last-of-type {
+  margin-right: 0;
+}
