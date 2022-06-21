@@ -1,8 +1,9 @@
 # SPA-routing-experience-body (green header)
 Improving client-side routing in single-page apps (SPAs) through good UX. This version of the SPA routing experience does the following:
 
-1. Announces route changes to screen readers with a live region
-1. Sets focus on the `body` tag so the skip link receives focus when users press `TAB`
+1. React sets the page title with the `useEffect()` hook
+1. Sets focus on the `div.continuum-sr-only` status message
+1. Skip link receives focus when users press `TAB`
 
 ## A better accessible router and skip link
 It's important to include a skip link for keyboard navigation. It's important to let screen readers know a route was changed client-side. These are fairly simple tasks in isolation, but become more nuanced when you try to do both well, together. This is our attempt at doing just that. By exploring several different options, we can test and select the best experience for our users.
@@ -12,6 +13,7 @@ All examples are hosted on separte GitHub repos as GitHub pages.
 
 1. [Live region with focus set on skip link](https://1copenut.github.io/SPA-routing-experience/)
 1. [Live region with focus set on body tag](https://1copenut.github.io/SPA-routing-experience-body/)
+1. [Focus set on H1 only](https://1copenut.github.io/SPA-routing-experience-h1/)
 
 ## Get started coding on your machine
 This repo requires you to type a few commands into a terminal window. Commands are shown in code blocks that begin with a dollar sign like this `$ command to type`. You can retype these commands or copy and paste them into your terminal window. Do not include the dollar sign ` $ ` when you type or copy commands into your terminal.
