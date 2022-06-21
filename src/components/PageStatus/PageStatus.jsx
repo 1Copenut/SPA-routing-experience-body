@@ -1,11 +1,15 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
-const PageLiveRegion = props => {
+const PageStatus = props => {
   const { pageTitle } = props;
   const [ titleState, setTitleState ] = useState('');
+  const statusRef = useRef(null);
 
   useEffect(() => {
-    setTitleState(pageTitle);
+    if (statusRef) {
+      setTitleState(pageTitle);
+      statusRef.current.focus();
+    }
 
     return () => {
       setTitleState('');
@@ -14,15 +18,14 @@ const PageLiveRegion = props => {
 
   return (
     <div
-      aria-atomic="true"
-      aria-live="polite"
-      aria-relevant="text additions"
       className="continuum-sr-only"
+      ref={statusRef}
       role="status"
+      tabIndex={-1}
     >
       {`Viewing ${titleState}`}
     </div>
   );
 }
 
-export default PageLiveRegion;
+export default PageStatus;

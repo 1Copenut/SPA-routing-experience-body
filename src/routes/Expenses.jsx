@@ -1,20 +1,18 @@
 import DocumentHead from "../components/DocumentHead/DocumentHead";
-import PageLiveRegion from "../components/PageLiveRegion/PageLiveRegion";
 import Header from "../components/Header/Header";
+import PageStatus from "../components/PageStatus/PageStatus";
+import SkipLink from "../components/SkipLink/SkipLink";
 import { MAIN_ID } from "../constants";
 
 const Expenses = props => {
-  const {
-    handleSkipLink,
-    pageTitle,
-    skipLinkVisible
-  } = props;
+  const { pageTitle } = props;
 
   return (
     <>
       <DocumentHead pageTitle={pageTitle} />
-      <PageLiveRegion pageTitle={pageTitle} />
-      <Header handleSkipLink={handleSkipLink} skipLinkVisible={skipLinkVisible} />
+      <PageStatus pageTitle={pageTitle} />
+      <SkipLink />
+      <Header />
 
       <main className="continuum-global-main" id={MAIN_ID}>
         <h1>Expenses</h1>
