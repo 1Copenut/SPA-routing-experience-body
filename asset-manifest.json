@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SPA-routing-experience-body/static/css/main.c9d285dc.css",
-    "main.js": "/SPA-routing-experience-body/static/js/main.10a148cd.js",
+    "main.js": "/SPA-routing-experience-body/static/js/main.a3e12a1a.js",
     "index.html": "/SPA-routing-experience-body/index.html",
     "main.c9d285dc.css.map": "/SPA-routing-experience-body/static/css/main.c9d285dc.css.map",
-    "main.10a148cd.js.map": "/SPA-routing-experience-body/static/js/main.10a148cd.js.map"
+    "main.a3e12a1a.js.map": "/SPA-routing-experience-body/static/js/main.a3e12a1a.js.map"
   },
   "entrypoints": [
     "static/css/main.c9d285dc.css",
-    "static/js/main.10a148cd.js"
+    "static/js/main.a3e12a1a.js"
   ]
 }
