@@ -33,5 +33,9 @@ This repo requires you to type a few commands into a terminal window. Commands a
 * [Deploying a CRA React App to GitHub Pages](https://github.com/gitname/react-gh-pages)
 * [How to Deploy a Routed React App to GitHub Pages](https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/)
 
+## Validation progress
+* MacOS Monterey + Safari + VoiceOver
+* MacOS Monterey + Firefox + VoiceOver
+
 ## Known issues for this solution
-* MacOS Monterey + Safari + VoicOver - Focus gets set on the skip link on route change. Live region is not announced.
+* ~~MacOS Monterey + Safari + VoicOver - Focus gets set on the skip link on route change. Live region is not announced.~~
