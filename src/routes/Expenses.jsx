@@ -10,7 +10,9 @@ const Expenses = props => {
   return (
     <>
       <DocumentHead pageTitle={pageTitle} />
-      <PageStatus pageTitle={pageTitle} />
+      <PageStatus isFocusable>
+        <span>{pageTitle}</span>
+      </PageStatus>
       <SkipLink />
       <Header />
 
