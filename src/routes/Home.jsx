@@ -10,7 +10,7 @@ const Home = props => {
   return (
     <>
       <DocumentHead pageTitle={pageTitle} />
-      <PageStatus pageTitle={pageTitle} />
+      <PageStatus pageTitle={pageTitle} isFocusable />
       <SkipLink />
       <Header />
 
