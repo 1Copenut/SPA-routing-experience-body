@@ -36,7 +36,6 @@ const PageStatus = props => {
       tabIndex={isFocusable ? -1 : undefined}
     >
       <div
-<<<<<<< HEAD
         aria-atomic="true"
         aria-hidden={toggle ? undefined : 'true'}
         aria-live={isFocusable ? 'off' : 'polite'}
@@ -51,20 +50,6 @@ const PageStatus = props => {
         role={role}
       >
         {!toggle ? pageTitle : ''}
-=======
-        role="status"
-        aria-live={isFocusable ? 'off' : 'polite'}
-        aria-atomic="true"
-      >
-        {toggle ? children : ''}
-      </div>
-      <div
-        role="status"
-        aria-live={isFocusable ? 'off' : 'polite'}
-        aria-atomic="true"
-      >
-        {!toggle ? children : ''}
->>>>>>> 474bc6c90154489109c1b865861a9499ee8ca506
       </div>
     </div>
   );
